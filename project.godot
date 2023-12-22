@@ -1,0 +1,33 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Sprout Valley"
+config/features=PackedStringArray("4.2", "Forward Plus")
+config/icon="res://icon.svg"
+
+[dotnet]
+
+project/assembly_name="Sprout Valley"
+
+[file_customization]
+
+folder_colors={
+"res://assets/": "orange",
+"res://dialogs/": "yellow",
+"res://scenes/": "green",
+"res://scripts/": "teal",
+"res://ui/": "pink"
+}
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
